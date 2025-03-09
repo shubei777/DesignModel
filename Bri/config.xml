@@ -1,0 +1,4 @@
+<beans>
+    <bean id="color" class="Model.Bri.Red"/>
+    <bean id="pen" class="Model.Bri.SmallPen"/>
+</beans>
