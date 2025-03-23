@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>Model.Bri</OriginalElement>
+  <nodes>
+    <node x="129.0" y="440.0">Model.Bri.XMLUtilPen</node>
+    <node x="-22.0" y="-14.0">Model.Bri.Pen</node>
+    <node x="63.0" y="138.0">Model.Bri.MiddlePen</node>
+    <node x="-107.0" y="138.0">Model.Bri.SmallPen</node>
+    <node x="347.0" y="341.0">Model.Bri.Blue</node>
+    <node x="120.0" y="341.0">Model.Bri.Green</node>
+    <node x="-107.0" y="440.0">Model.Bri.BridgePatternDemo</node>
+    <node x="-107.0" y="341.0">Model.Bri.Red</node>
+    <node x="363.0" y="440.0">Model.Bri.Test</node>
+    <node x="120.0" y="237.0">Model.Bri.Color</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Model.Bri.SmallPen" target="Model.Bri.Pen" relationship="GENERALIZATION">
+      <point x="0.0" y="-27.0" />
+      <point x="-32.0" y="113.0" />
+      <point x="53.0" y="113.0" />
+      <point x="0.0" y="51.0" />
+    </edge>
+    <edge source="Model.Bri.Blue" target="Model.Bri.Color" relationship="GENERALIZATION">
+      <point x="0.0" y="-27.0" />
+      <point x="450.5" y="316.0" />
+      <point x="223.5" y="316.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="Model.Bri.Red" target="Model.Bri.Color" relationship="GENERALIZATION">
+      <point x="0.0" y="-27.0" />
+      <point x="-3.5" y="316.0" />
+      <point x="223.5" y="316.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="Model.Bri.Green" target="Model.Bri.Color" relationship="GENERALIZATION">
+      <point x="0.0" y="-27.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="Model.Bri.MiddlePen" target="Model.Bri.Pen" relationship="GENERALIZATION">
+      <point x="0.0" y="-27.0" />
+      <point x="138.0" y="113.0" />
+      <point x="53.0" y="113.0" />
+      <point x="0.0" y="51.0" />
+    </edge>
+  </edges>
+  <settings layout="分层" zoom="1.5" showDependencies="false" x="233.5" y="250.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>字段</Category>
+    <Category>属性</Category>
+    <Category>方法</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

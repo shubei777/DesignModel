@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>Model.factory</OriginalElement>
+  <nodes>
+    <node x="69.0" y="293.0">Model.factory.Apple</node>
+    <node x="117.0" y="90.0">Model.factory.BFactory</node>
+    <node x="-56.0" y="90.0">Model.factory.AFactory</node>
+    <node x="-56.0" y="293.0">Model.factory.Banana</node>
+    <node x="219.0" y="189.0">Model.factory.Test</node>
+    <node x="30.5" y="-14.0">Model.factory.Factory</node>
+    <node x="6.5" y="189.0">Model.factory.Fruit</node>
+    <node x="-56.0" y="392.0">Model.factory.XMLUtil</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Model.factory.Apple" target="Model.factory.Fruit" relationship="GENERALIZATION">
+      <point x="0.0" y="-27.0" />
+      <point x="121.5" y="268.0" />
+      <point x="59.0" y="268.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="Model.factory.BFactory" target="Model.factory.Factory" relationship="GENERALIZATION">
+      <point x="0.0" y="-27.0" />
+      <point x="193.5" y="65.0" />
+      <point x="107.0" y="65.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="Model.factory.Banana" target="Model.factory.Fruit" relationship="GENERALIZATION">
+      <point x="0.0" y="-27.0" />
+      <point x="-3.5" y="268.0" />
+      <point x="59.0" y="268.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="Model.factory.AFactory" target="Model.factory.Factory" relationship="GENERALIZATION">
+      <point x="0.0" y="-27.0" />
+      <point x="20.5" y="65.0" />
+      <point x="107.0" y="65.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+  </edges>
+  <settings layout="分层" zoom="1.5" showDependencies="false" x="171.0" y="226.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>字段</Category>
+    <Category>属性</Category>
+    <Category>方法</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

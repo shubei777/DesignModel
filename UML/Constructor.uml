@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>Model.Constructor</OriginalElement>
+  <nodes>
+    <node x="102.0" y="283.0">Model.Constructor.KFCWaiter</node>
+    <node x="-86.0" y="283.0">Model.Constructor.Meal</node>
+    <node x="108.0" y="161.0">Model.Constructor.SubMealBuilderB</node>
+    <node x="-86.0" y="161.0">Model.Constructor.SubMealBuilderA</node>
+    <node x="23.75" y="-14.0">Model.Constructor.MealBuilder</node>
+    <node x="-86.0" y="476.0">Model.Constructor.Test</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Model.Constructor.SubMealBuilderA" target="Model.Constructor.MealBuilder" relationship="GENERALIZATION">
+      <point x="0.0" y="-38.5" />
+      <point x="1.0" y="136.0" />
+      <point x="97.75" y="136.0" />
+      <point x="0.0" y="62.5" />
+    </edge>
+    <edge source="Model.Constructor.SubMealBuilderB" target="Model.Constructor.MealBuilder" relationship="GENERALIZATION">
+      <point x="1.4210854715202004E-14" y="-38.5" />
+      <point x="194.5" y="136.0" />
+      <point x="97.75" y="136.0" />
+      <point x="0.0" y="62.5" />
+    </edge>
+  </edges>
+  <settings layout="分层" zoom="1.5" showDependencies="false" x="113.5" y="268.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>字段</Category>
+    <Category>属性</Category>
+    <Category>方法</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
